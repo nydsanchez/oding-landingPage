@@ -7,15 +7,15 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <header>
+    <header id="header-container">
       <nav>
         <h1>Header Logo</h1>
-        <a href="#">header link 1</a>
-        <a href="#">header link 2</a>
-        <a href="#">header link 3</a>
+        <a id="menu-link1" href="#">link 1</a>
+        <a id="menu-link2" href="#">link 2</a>
+        <a id="menu-link3" href="#">link 3</a>
       </nav>
-      <section class="hero">
-        <div>
+      <section id="hero-container">
+        <div class="hero-text">
           <h2>This website is awesome</h2>
           <p>
             This website has some but text that goes under the main title. It's
@@ -23,38 +23,38 @@
           </p>
           <button>Sign up</button>
         </div>
-        <figure>
-          <img
-            src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="hamburgesa"
-          />
-        </figure>
+
+        <img
+          class="hero-img"
+          src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="hamburgesa"
+        />
       </section>
     </header>
     <main>
-      <section>
+      <section id="features">
         <h2>Some random information</h2>
-        <div>
-          <div>
+        <div class="features-container">
+          <div class="feature-item">
             <img src="#" alt="image 1" />
             <p>this is some subtext under an illustration or image</p>
           </div>
-          <div>
+          <div class="feature-item">
             <img src="#" alt="image 2" />
             <p>this is some subtext under an illustration or image</p>
           </div>
-          <div>
+          <div class="feature-item">
             <img src="#" alt="image 3" />
             <p>this is some subtext under an illustration or image</p>
           </div>
-          <div>
+          <div class="feature-item">
             <img src="#" alt="image 4" />
             <p>this is some subtext under an illustration or image</p>
           </div>
         </div>
       </section>
       <section id="testimony">
-        <article>
+        <article class="testimony-container">
           <p>
             This is an important quote, or testimonial from a customer. Maybe
             it's just filling up space, or maybe people will actually read it.
@@ -64,7 +64,7 @@
         </article>
       </section>
       <section id="cta">
-        <div>
+        <div class="cta-container">
           <h3>Call to action! It's time!</h3>
           <p>
             Sign up for our product by clicking that button rigth over there!
